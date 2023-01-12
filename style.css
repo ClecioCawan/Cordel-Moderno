@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap'); 
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: 'Passion one', cursive;
+}
+*{
+    font-family: var(--fonte1);
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgba(131, 131, 131, 0.587);
+
+}
+header{
+    background-color: black;
+    
+}
+header > h1{
+    font-family: var(--fonte3);
+    color:white;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 10vw;
+}
+header > p{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+
+}
+header p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+section{
+    background-color: white;
+    font-family: var(--fonte2);
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+    width: 45vw;
+    text-align: left;
+
+    
+}
+#div-1{
+    background-image: url(img/background001.jpg);
+    padding: 10px;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover ;
+    
+}
+.transparente-1{
+    color: white;
+    font-family: var(--fonte2);
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.316);
+    box-shadow: inset 10px 10px 10px 10px solid black;
+}
+
+#div-2{
+    background-image: url(img/background002.jpg);
+    padding: 10px;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.transparente-2{
+    color: white;
+    font-family: var(--fonte2);
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background-color: rgba(0, 0, 0, 0.316);
+    box-shadow: inset 10px 10px 10px 0px solid black;
+}   
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+footer > a{
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
