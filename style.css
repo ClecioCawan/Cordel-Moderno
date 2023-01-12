@@ -13,8 +13,9 @@
     padding: 0px;
     
 }
-body{
-    background-color: rgba(131, 131, 131, 0.587);
+html, body{ /*Todos os elementos do html e body*/
+    background-color: none;
+    
 
 }
 header{
@@ -27,6 +28,7 @@ header > h1{
     padding-top: 50px;
     text-align: center;
     font-size: 10vw;
+    font-variant: small-caps;
 }
 header > p{
     color: white;
@@ -41,31 +43,26 @@ header p > a{
     text-decoration: none;
     font-weight: bold;
 }
-main{
-    width: 800px;
-    margin: auto;
-    border: 1px solid black;
-    background-color: white;
-}
+
 section{
     background-color: white;
     font-family: var(--fonte2);
     padding-top: 10vh;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10vh;
     font-size: 3.5vw;
-    line-height: 2em;
+    line-height: 2em; /*Espassamento entre linhas*/
     width: 45vw;
     text-align: left;
 
-    
 }
 #div-1{
     background-image: url(img/background001.jpg);
     padding: 10px;
-    background-position: right center;
-    background-attachment: fixed;
+    background-position: center center;
     background-size: cover ;
+    background-attachment: fixed;
+    
     
 }
 .transparente-1{
@@ -84,7 +81,7 @@ section{
 #div-2{
     background-image: url(img/background002.jpg);
     padding: 10px;
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
